@@ -38,6 +38,11 @@ h2 {
   background-repeat: no-repeat;
   background-position: right;
 }
+.experiences-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
 .experiences-item {
   width: 40%;
   margin-left: 5%;
@@ -45,4 +50,17 @@ h2 {
   padding-left: 20px;
   border-radius: 10px;
   box-shadow: 10px 10px 40px gray;
+}
+#full-stack-experience {
+  border-left: 7px solid;
+  border-image: linear-gradient(purple, tomato);
+  border-image-slice: 1;
+}
+#web-dev-experiences {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+.copyright {
+  text-align: center;
 }
